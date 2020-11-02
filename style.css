@@ -1,0 +1,68 @@
+
+h1 {
+    color: blue;
+}
+
+#box{
+    width: 50px;
+    height: 50px;
+    float: block;
+  
+}
+
+.board div{
+    width: 50px;
+    height: 50px;
+    outline: 1px solid;
+    float: left;
+}
+.board {
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin: 50px;
+}
+
+#results{
+    color: red;
+    text-align: center;
+}
+
+.pushed {
+    background-color: darkorange;
+}
+.unpushed {
+    background-color: firebrick;
+}
+
+.miss{
+    background-color: darkred;
+}
+
+.hit{
+    background-color: rgb(163, 91, 2);
+}
+
+
+#ships-select {
+float: left;
+margin-left: 40px;
+}
+.ship {
+background-color: darkorange;
+width: 50px;
+height: 50px;
+margin: 10px;
+}
+#s4 {
+width: 200px;
+}
+#s3 {
+    width: 150px;
+}
+#s2 {
+    width: 100px;
+}
+.shipText {
+margin-left: 10px;
+}
